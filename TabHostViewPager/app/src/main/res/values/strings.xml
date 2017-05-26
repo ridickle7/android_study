@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TabHostViewPager</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="myStory">Hello MyStory</string>
+    <string name="ourStory">Hello OurStory</string>
+</resources>

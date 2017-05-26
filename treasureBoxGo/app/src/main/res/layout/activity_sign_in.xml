@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_in"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="hyewon.co.kr.treasureboxgo.SignInActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:text="학교 정보 입력"/>
+    <EditText
+        android:id="@+id/schoolName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="학교명"/>
+
+    <EditText
+        android:id="@+id/schoolMajor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="학과"/>
+
+    <EditText
+        android:id="@+id/schoolUserNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="학번"/>
+
+    <EditText
+        android:id="@+id/schoolUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="이름"/>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:text="로그인 정보 입력"/>
+    <EditText
+        android:id="@+id/userId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="아이디"/>
+    <EditText
+        android:id="@+id/userPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="비밀번호"/>
+    <EditText
+        android:id="@+id/userRePassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="비밀번호 확인"/>
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/signInEditText"
+        android:background="@drawable/square"
+        android:hint="이메일"/>
+
+    <CheckBox
+        android:layout_marginTop="15dp"
+        android:text="개인정보 수집 및 이용 동의"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:id="@+id/checkBox" />
+
+    <Button
+        android:id="@+id/signInButton"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_width="100dp"
+        android:text="회원가입"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
